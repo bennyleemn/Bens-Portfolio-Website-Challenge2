@@ -24,7 +24,6 @@ header{
     background-color:var(--dark);
     padding-top: 0px;
     display: flexbox;
-
 }
 
 li{ 
@@ -43,19 +42,17 @@ li{
     text-align:center;
 }
 
-#AboutMe{
+#Items {
     text-align:center;
     padding-top: 50px;
     display:flexbox;
 }
 
 #AboutMe img{
-    display:block;
+    display:flex;
     margin-left: auto;
     margin-right: auto;
-/*  margin-top: auto;
-    margin-bottom: auto;
-*/}
+}
 
 h2{
     text-align: center;
@@ -82,7 +79,7 @@ h3{
 }
 
 .contact{
-    display: float spacebetween flexbox;
+    display: block;
     padding: 5px;
 /*  font-weight:bolder;
     font-family: 'Courier New', Courier, monospace;
