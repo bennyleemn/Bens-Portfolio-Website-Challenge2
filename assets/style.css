@@ -1,16 +1,13 @@
-:root {
-    --orange: darkgoldenrod;
-    --light: floralwhite;
-    --dark: indigo;
-
-}
 * {
     font-family: 'Times New Roman', Times, serif; 
     color:darkgoldenrod;
-    font-style: oblique;    
+    font-style: oblique;
+    font-size: 1vw;    
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     margin: 0px;
     background-color:black;
 }
@@ -21,29 +18,123 @@ header{
     right: 0px;
     left: 0px;
     background-color:var(--dark);
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#BC h1 {
-    text-align: center;
+h1 {
+    text-align: left;
+    font-size: 2rem;
     color: var(--light);
+    margin: 1% 1% 1% 0%;
+    background-color: coral;
 }
 
-li{ 
+h2 {
+    display:flex;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+/* Defines positioning of header*/
+#nav { 
     display:inline;
+    font-size: 2.5rem;
+    justify-content: right;
 }
-
-.links a {
-    display: flexbox;
+/* Defines layout of navbar within header*/
+.my-content nav {
+    display: inline-flexbox;
     position: right;
-    font: 10px;
+    font: 2.5rem;
     padding-top: 10px;
     padding-right: 10px;
     font-style: strong;
     color: var(--light);
 }
+/* Defines titles of areas on screen */
+.section-header {
+    display: flex;
+}
 
-#links {
+#work-examples {
+    display: flex;
+
+}
+/* Background Image for work examples */
+.displaycard {
+    display:flex;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    opacity: .5;
+    font-size: 15px;
+}
+
+#card1 {
+    
+}
+
+#card2 {
+    
+}
+
+#card3 {
+    
+}
+
+#card4 {
+    
+}
+
+#card5 {
+    
+}
+
+
+#contact-info a {
+    text-align: left;
+
+
+}
+
+@media only screen and (max-width:600px) {
+    nav h1 header {
+        font-size: 1.25rem;
+    }
+    }
+
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    }
+@media only screen and (min-width: 768px) {
+    h1 {
+         font-size: 1.75rem;
+         line-height: 1.75rem;
+    }  
+    }
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+    }  
+    }    
+
+@media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+    }  
+    }
+/* #links {
     position: right;
 }
 
@@ -93,7 +184,7 @@ h3{
 /*  font-weight:bolder;
     font-family: 'Courier New', Courier, monospace;
 */    
-}
+/* } */
 
 #submit-button{
     background-color:aqua;
