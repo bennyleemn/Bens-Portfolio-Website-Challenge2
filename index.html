@@ -6,52 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio Site</title>
-    <link rel="stylesheet" href="./assets/reset.css" />
-    <link rel="stylesheet" href="./assets/root.css"/>
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/root.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
-<header>
-    <h1>Currier</h1>
-    <nav class="nav">
-        <a href="#">About Me</a>
-        <a href="#">Work</a>
-        <a href="#">Contact Me</a>
-        <a href="#">Resume</a><!-- *linkedin site link (linkedin.com/in/ben-currier-2b51a31a) -->
-    </nav>
-</header>
 <body>
+    <header>
+        <h1>Currier</h1>
+        <nav>
+            <a href="#about-me">About Me</a>
+            <a href="#my-content">Work</a>
+            <a href="#contact-me">Contact Me</a>
+            <a href="https://linkedin.com/in/ben-currier-2b51a31a" target="_blank">Resume</a>
+        </nav>
+    </header>
+
+    <img></img>
+
     <main>
-        <article>
-            <section class="section-header"><h2>About Ben</h2></section>
+        <article class="spacing">
+            <section class="section-header" id = "about-me"><h2>About Ben</h2></section>
             <section>
                 <p>There was a person that did a thing on a day way back when, then they tried another way to do a different
                 sort of wizardy.
-                But on that same day there was a sorcer that poofed a peck by conjuring spirits that was sort of hot a
+                But on that same day there was a sorcerer that poofed a peck by conjuring spirits that was sort of how a
                 wizard that shall
-                not be named got his start. </p>
+                not be named got his start. 
+                There once was a boy from Nantucket, his hair was so long he could pluck it, when it rained outside, 
+                he had to hide for fear that his head would end up in a bucket.
+                How many licks does it take to get to the tootsie roll center of a toostie pop, One...Two...Thrrreeee...
+                CRUnCH!</p>
             </section>
         </article>
 
-        <nav class="my-content">
-            <section class="section-header">
-            <section id="work-examples">
-                <article class="displaycard" id = "card1" style="background-image: url(./assets/backgroundimage1.jpg)">My First Website</article>
-                <a href="https://bennyleemn.github.io/Stu_Mini_Project/" target="_blank"><My First Website></a>
-                <!-- Thing for 'work' 
-                *studentminiproject
-                *titled My first website  -->
-
-                </article>
-                <article class="displaycard" id = "card2" style="background-image: url(./assets/backgroundimage2.jpg)">My First Refactor</article>
-                <a href="https://bennyleemn.github.io/CodeReFactoring_Challenge1/" target="_blank"><My First Code Refactor></a>
-                <!-- Thing for 'work' 
-                *challenge1
-                *titled My first code refactor 
-                **<a href="https://bennyleemn.github.io/CodeReFactoring_Challenge1/" target="_blank"><My First Code Refactor></a>-->
-
-                </article>
-                <article class="displaycard" id = "card3" style="background-image: url(./assets/backgroundimage3.jpg)">Biggest Projects</article>
+        <figure class="spacing" id="my-content">
+            <section class="section-header"><h2>My Work</h2></section>
+            <section id="content-layout">
+                <a class="displaycard" href="https://bennyleemn.github.io/Stu_Mini_Project/" target="_blank" style="background-image: url('./assets/images/backgroundimage1.jpg')">My First Website</a>
+                <a class="displaycard" href="https://bennyleemn.github.io/CodeReFactoring_Challenge1/" target="_blank" style="background-image: url('./assets/images/backgroundimage2.jpg')">My First Code Refactor</a>
+                <a class="displaycard" style="background-image: url(./assets/images/backgroundimage3.jpg)">Biggest Projects
                 <!-- <img src="/assets/OliverDocBrown.png"> -->
                 <!-- <img src="/assets/Lookatwhatimdoing.jpg"> -->
                 <!-- Thing for 'work' 
@@ -61,36 +55,31 @@
                 *id = youngest (embed Charlie's happy pic) 
                 *or do i just need 1 image
                 *scrollable?-->
-                </article>
-                <article class="displaycard" id = "card4">
+                <a class="displaycard">
                 <!-- Thing for 'work' 
                 *before/afterofcamper
                 *titled What I can do for your website
                 *id = before (embed pic of camper day1)
                 *id = after (embed pic of camper day 7 or 8) -->
-                </article>
-                <article class="displaycard" id = "card5">
+                <a class="displaycard">
                 <!-- Thing for 'work'
                 *progression of work (can one do slideshow?)
                 *title My skills progression
                 *id = (slideshow) -->
-                </article>
+                </figure>
             </section>
+        </figure>
 
-        </nav>
-
-        <article>
-            <section class="section-header">
-            <h2>Contact info & Social Media Links</h2>
-            <section id="contact-info">
-                <a href="Cell:(612)386-6141">(612)386-6141</a>
-                <a href="https://github.com/bennyleemn" target="_blank">Github</a>
-                <a href="https://www.linkedin.com/in/ben-currier-2b51a31a/" target="_blank">LinkedIn</a>
-                <a href="https://open.spotify.com/user/1272074254?si=0Y0hctRmTz6QVJGQ7inJgg " target="_blank">Spotify</a>
-                <a href="https://google.com/search/coming soon" target="_blank">Website Coming Soon</a>
-            </section>
-        </article>
-
+        <aside class="spacing" id="contact-me">
+            <section class="section-header"><h2>Contact info & Social Media Links</h2></section>
+                <section id="contact-info">
+                    <a href="Cell:(612)386-6141">(612)386-6141</a>
+                    <a href="https://github.com/bennyleemn" target="_blank">Github</a>
+                    <a href="https://www.linkedin.com/in/ben-currier-2b51a31a/" target="_blank">LinkedIn</a>
+                    <a href="https://open.spotify.com/user/1272074254?si=0Y0hctRmTz6QVJGQ7inJgg " target="_blank">Spotify</a>
+                    <a href="https://google.com/search/coming soon" target="_blank">Website Coming Soon</a>
+                </section>
+        </aside>
     </main>
     
     <footer>
