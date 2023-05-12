@@ -2,9 +2,9 @@
 A website for my portfolio
 Description: Create a website for class to track progress, help hone my basic skills and essentially, set me up to link out to the things I create or collaborate on during the course.
 
-Link to deployed site: check it out --> [ ()]
+Link to deployed site: check it out --> [(https://bennyleemn.github.io/Bens-Portfolio-Website-Challenge2/)]
 
-Link to repo: 
+Link to repo: [https://github.com/bennyleemn/Bens-Portfolio-Website-Challenge2/tree/main]
 
 Contributors: Slack or Discord Study Groups - Michael I., Caesar R., Sarah B., TA's (Akon/Quinton)
 

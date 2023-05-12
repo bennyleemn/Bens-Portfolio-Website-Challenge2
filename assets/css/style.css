@@ -4,7 +4,7 @@
     color: var(--sizzle);
     font-style: oblique;
 }
-
+/* Defines font size for all */
 html {
     font-size: 1vw; 
 }
@@ -25,7 +25,7 @@ header{
     left: 0px;
     background-color:var(--realdark);
 }
-/* Defines */
+/* Defines header text, colors, etc... */
 h1 {
     text-align: left;
     font-size: 7em;
@@ -43,13 +43,13 @@ nav {
 nav a {
     font-size: 2.25rem;
 }
-
+/* Defines what happens when user hovers/clicks on item in header list */
 nav a:hover {
     text-decoration:none;
     color:#fff;
     background-color: lightcoral;
 }
-
+/* Image for banner */
 img {
     display: flex;
     height: 15vw;
@@ -175,7 +175,7 @@ aside:hover #contact-info {
 }
 
 
-@media only screen and (max-width:960px) {
+@media only screen and (max-height:960px) {
     * {
         display: flex;
         flex-direction: column;
@@ -183,6 +183,9 @@ aside:hover #contact-info {
     html {
         font-size: 2vw;
     }
+    /* img {
+        background-size: auto;
+    } */
     #my-content {
         display: inherit;
         flex-direction: column;
@@ -203,9 +206,9 @@ aside:hover #contact-info {
     p {
         font-size: 1.85rem;
     }
-    }
 
-@media only screen and (min-width: 615px) {
+
+/* @media only screen and (min-width: 615px) {
     h1 {
         font-size: 3rem;
     
@@ -216,9 +219,9 @@ aside:hover #contact-info {
     p {
         font-size: 1.85rem;
     }
-    }
+    } */
 
-    @media only screen and (min-width: 992px) {
+    /* @media only screen and (min-width: 992px) {
         h1 {
             font-size: 1.5rem;
             
@@ -226,7 +229,7 @@ aside:hover #contact-info {
         p {
             font-size: 1.5rem;
         }  
-        }     */ */
+    } */
 
     /* @media only screen and (min-width: 768px) {
     h1 {
