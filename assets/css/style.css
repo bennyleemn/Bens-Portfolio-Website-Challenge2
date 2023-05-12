@@ -28,7 +28,7 @@ header{
 /* Defines header text, colors, etc... */
 h1 {
     text-align: left;
-    font-size: 7em;
+    font-size: 5em;
     color: var(--light);
     margin: 1% 1% 1% 0%;
     background-color: coral;
@@ -50,19 +50,17 @@ nav a:hover {
     background-color: lightcoral;
 }
 /* Image for banner */
-img {
+q {
     display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
     height: 15vw;
-    /* text-align: right; */
     background-size: cover;
     background-color: #fff;
     background-image: url(../images/bannerimage.jpg);
-    background-repeat: no-repeat;    
-}
-
-#bubble-gum-banner {
-    display: flex;
-    flex-direction:row-reverse;
+    background-repeat: no-repeat; 
+    font-size: 2rem; 
+    color: #fff;
 }
 
 .spacing {
@@ -70,7 +68,7 @@ img {
     justify-content: space-between;
     margin-bottom: 10vw;
     width: 100vw;
-}
+    }
 
 .section-header {
     display: flex;
@@ -102,15 +100,14 @@ p {
     flex-direction: row;
     justify-content:space-between;
     align-items: flex-start;
-    font-style: strong;
     color: var(--light);
 }
 
 h2 {
     display:flex;
     text-align: center;
-    /* margin-top: 10px;
-    padding-top: 10px; */
+    margin-top: 10px;
+    padding-top: 10px;
     font-size: 4em;
 }
 
@@ -157,7 +154,6 @@ aside:hover #contact-info {
 
 #contact-info {
     text-align: center;
-    align-self: space-around;
     display: none;
     height: 15vw;   
     padding-top: 5vw;
@@ -174,28 +170,31 @@ aside:hover #contact-info {
     background-color: lightcoral;
 }
 
+footer h3 {
+    margin-top: 5vw;
+    text-align:center;
+    padding-bottom: 7px;
+}
 
-@media only screen and (max-height:960px) {
+
+@media only screen and (max-width:960px) {
     * {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     html {
         font-size: 2vw;
     }
-    /* img {
-        background-size: auto;
-    } */
     #my-content {
         display: inherit;
         flex-direction: column;
-        align-content: center;
+        align-items: center;
     }
     #content-layout {
         display:inherit;
         flex-direction: row;
         align-content: center;
-    }
     }
     h1 {
         font-size: 4rem;
@@ -206,63 +205,4 @@ aside:hover #contact-info {
     p {
         font-size: 1.85rem;
     }
-
-
-/* @media only screen and (min-width: 615px) {
-    h1 {
-        font-size: 3rem;
-    
-    }
-    h2 {
-        font-size: 2.75rem;
-    }
-    p {
-        font-size: 1.85rem;
-    }
-    } */
-
-    /* @media only screen and (min-width: 992px) {
-        h1 {
-            font-size: 1.5rem;
-            
-        }
-        p {
-            font-size: 1.5rem;
-        }  
-    } */
-
-    /* @media only screen and (min-width: 768px) {
-    h1 {
-         font-size: 4rem;
-        
-    }
-    p {
-        font-size: 4rem;
-    }  
-    }
-
-@media only screen and (min-width: 992px) {
-    h1 {
-        font-size: 4rem;
-        
-    }
-    p {
-        font-size: 4rem;
-    }  
-    }     */ */
-
-/* @media only screen and (min-width: 1200px) {
-    h1 {
-        font-size: 4rem;
-        
-    }
-    p {
-        font-size: 4rem;
-    }  
-    } */
-
-footer h3 {
-    margin-top: 5vw;
-    text-align:center;
-    padding-bottom: 7px;
 }
