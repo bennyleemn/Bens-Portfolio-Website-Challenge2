@@ -6,6 +6,8 @@ Link to deployed site: check it out --> [(https://bennyleemn.github.io/Bens-Port
 
 Link to repo: [https://github.com/bennyleemn/Bens-Portfolio-Website-Challenge2/tree/main]
 
+Screenshot  ![Site Preview](./assets/images/PreviewOfSite-Challenge2-BLC.png)
+
 Contributors: Slack or Discord Study Groups - Michael I., Caesar R., Sarah B., TA's (Akon/Quinton)
 
 Motivation: To learn the basics of semantic html, css styling and web development. This is the first step on a journey I am taking to become a developer.
