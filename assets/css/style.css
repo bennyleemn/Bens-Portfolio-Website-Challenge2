@@ -13,7 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color:black;
-    /* width:100% */
+    width:100%
 }
 /* Defines positioning and sizing of header*/
 header{
@@ -42,14 +42,15 @@ nav {
 /* Defines text size for navbar selections */
 nav a {
     font-size: 2.25rem;
+    margin-right: 10px;
 }
-/* Defines what happens when user hovers/clicks on item in header list */
+/* Defines the header looks when a user hovers/clicks on item in header list */
 nav a:hover {
     text-decoration:none;
     color:#fff;
     background-color: lightcoral;
 }
-/* Image for banner */
+/* Defines display for banner image and text */
 q {
     display: flex;
     justify-content: flex-end;
@@ -62,14 +63,14 @@ q {
     font-size: 2rem; 
     color: #fff;
 }
-
+/* Defines the spacing for class spacing within site for content */
 .spacing {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10vw;
-    width: 100vw;
+    /* width: 100vw; */
     }
-
+/* Defines display, alignment and padding for class section header within site for contet */
 .section-header {
     display: flex;
     flex-direction: row;
@@ -77,24 +78,24 @@ q {
     padding: 1vw 0 0 4vw;
     width: 30vw;
 }
-
+/* Defines about me text alignment and display */
 #about-me {
     display: flex;
     text-align: center;    
 }
-
+/* Defines class content within site content */
 .content {
     width:75%;
     margin: 10px;
 }
-
+/* Defines font display - sizing, alignment, etc.. */
 p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color:aliceblue;
     align-self: center;
     text-align: left;
 }
-
+/* Defines how my-content ids display on website page */
 #my-content {
     display: flex;
     flex-direction: row;
@@ -102,7 +103,7 @@ p {
     align-items: flex-start;
     color: var(--light);
 }
-
+/* Defines how h2 tags/elements display within site content */
 h2 {
     display:flex;
     text-align: center;
@@ -110,12 +111,12 @@ h2 {
     padding-top: 10px;
     font-size: 4em;
 }
-
+/* Defines how content layout ids display within the site content */
 #content-layout {
     display: flex;
     flex-wrap: wrap;
 }
-
+/* Defines how the displaycard class displays, looks and behaves within the site content */
 .displaycard {
     flex-basis: calc(50% - 1.50vw);
     height: 10em;
@@ -134,49 +135,49 @@ h2 {
     border: .25vw solid;
     border-color: honeydew;
 }
-
+/* Defines how the displaycard content behaves when user hovers over them */
 .displaycard:hover {
     opacity: 1;
 }
-
+/* Defines how the displaycard content behaves when user hovers over them (seems redundant, but helps if text only avail*/
 .displaycard:hover text {
     opacity: 1;
 }
-
+/* Defines how the first displaycard presents to the user on the page (biggest one) */
 .displaycard:first-child {
     flex-basis: 100%;
     height: 50vw;
 }
-
+/* Defines how the aside contact-info id displays to user when hovered over or clicked */
 aside:hover #contact-info {
     display: inherit;
 }
-
+/* Defines how the contact-info id presents on page and behavior when hovered over or clicked */
 #contact-info {
     text-align: center;
     display: none;
     height: 15vw;   
     padding-top: 5vw;
 }
-
+/* Defines how the contact-info id a tags/elements are sized within page relative to other content */
 #contact-info a {
     font-size: 1.8rem;
     margin: 0 2vw 0 2vw;
 }
-
+/* Defines how the contact-info ids a tags/elements behave when hovered over/clicked */
 #contact-info a:hover {
     text-decoration:wavy;
     color:#fff;
     background-color: lightcoral;
 }
-
+/* Defines how the footer is placed and displays within the site page relative to viewing size */
 footer h3 {
     margin-top: 5vw;
     text-align:center;
     padding-bottom: 7px;
 }
-/*  */
-@media only screen and (max-width:960px) {
+/* Defines how the screen behaves based on a relative view width of 960px or less*/
+@media only screen and (max-width:992px) {
     * {
         display: flex;
         flex-direction: column;
